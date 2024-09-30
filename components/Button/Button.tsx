@@ -1,6 +1,7 @@
 import clsx from "clsx";
 import React from "react";
 import InnerButton from "./InnerButton";
+import Link from "next/link";
 
 type Props = {
   icon: string;
@@ -20,7 +21,7 @@ const Button = ({
   markerFill,
 }: Props) => {
   return href ? (
-    <a
+    <Link
       href={href}
       className={clsx(
         "relative p-0.5 g5 rounded-2xl shadow-500 group",
@@ -30,7 +31,7 @@ const Button = ({
       <InnerButton icon={icon} markerFill={markerFill}>
         {children}
       </InnerButton>
-    </a>
+    </Link>
   ) : (
     <button
       className={clsx(
