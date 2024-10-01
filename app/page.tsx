@@ -4,6 +4,7 @@ import Hero from "../components/Hero";
 import Pricing from "@/components/Pricing";
 import Faq from "@/components/Faq/Faq";
 import Testimonials from "@/components/Testimonial/Testimonials";
+import Download from "@/components/Download";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Pricing />
       <Faq />
       <Testimonials />
+      <Download />
     </main>
   );
 }
