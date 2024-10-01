@@ -3,6 +3,7 @@ import Header from "../components/Header";
 import Hero from "../components/Hero";
 import Pricing from "@/components/Pricing";
 import Faq from "@/components/Faq/Faq";
+import Testimonials from "@/components/Testimonial/Testimonials";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Features />
       <Pricing />
       <Faq />
+      <Testimonials />
     </main>
   );
 }
