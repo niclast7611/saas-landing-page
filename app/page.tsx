@@ -5,6 +5,7 @@ import Pricing from "@/components/Pricing";
 import Faq from "@/components/Faq/Faq";
 import Testimonials from "@/components/Testimonial/Testimonials";
 import Download from "@/components/Download";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Faq />
       <Testimonials />
       <Download />
+      <Footer />
     </main>
   );
 }
